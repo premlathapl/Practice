@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testNgPractice.beforeSuite">
+        <methods>
+          <include name="befTest"/>
+          <include name="aftTest"/>
+          <include name="befGroups"/>
+          <include name="aftMethod"/>
+          <include name="befClass"/>
+          <include name="aftClass"/>
+          <include name="runRandom"/>
+          <include name="runRandom2"/>
+          <include name="befSuite"/>
+          <include name="befMethod"/>
+        </methods>
+      </class> <!-- testNgPractice.beforeSuite -->
+      <class name="testNgPractice.atTest">
+        <methods>
+          <include name="runRandomOneAtTesth"/>
+          <include name="runRandomOneAtTest"/>
+          <include name="runRandomOneAtTesthuh"/>
+          <include name="runRandom1232"/>
+        </methods>
+      </class> <!-- testNgPractice.atTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,19 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>grp11</groupId>
+  <artifactId>Practice</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>name12</name>
+  <dependencies>
+  <dependency>
+     <groupId>com.sun.jini</groupId>
+     <artifactId>group</artifactId>
+     <version>2.1</version>
+ </dependency>
+ <dependency>
+     <groupId>org.openqa.selenium.grid</groupId>
+     <artifactId>selenium-grid-tools</artifactId>
+     <version>1.0.2</version>
+ </dependency>
+ </dependencies>
+</project>

@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+    <line>
+      <![CDATA[it is passed]]>
+    </line>
+    <line>
+      <![CDATA[it is passed]]>
+    </line>
+    <line>
+      <![CDATA[it is passed]]>
+    </line>
+    <line>
+      <![CDATA[it is passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="197" started-at="2015-05-21T13:19:16Z" finished-at="2015-05-21T13:19:16Z">
+    <groups>
+      <group name="test">
+        <method signature="atTest.runRandomOneAtTest(java.lang.String)[pri:0, instance:testNgPractice.atTest@5f150435]" name="runRandomOneAtTest" class="testNgPractice.atTest"/>
+        <method signature="beforeSuite.runRandom(java.lang.String)[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="runRandom" class="testNgPractice.beforeSuite"/>
+      </group> <!-- test -->
+    </groups>
+    <test name="Test" duration-ms="197" started-at="2015-05-21T13:19:16Z" finished-at="2015-05-21T13:19:16Z">
+      <class name="testNgPractice.atTest">
+        <test-method status="PASS" signature="runRandomOneAtTesth(java.lang.String)[pri:0, instance:testNgPractice.atTest@5f150435]" name="runRandomOneAtTesth" duration-ms="12" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valuables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[it is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runRandomOneAtTesth -->
+        <test-method status="PASS" signature="runRandomOneAtTesthuh(java.lang.String)[pri:0, instance:testNgPractice.atTest@5f150435]" name="runRandomOneAtTesthuh" duration-ms="5" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valuables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[it is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runRandomOneAtTesthuh -->
+        <test-method status="PASS" signature="runRandomOneAtTest(java.lang.String)[pri:0, instance:testNgPractice.atTest@5f150435]" name="runRandomOneAtTest" duration-ms="4" started-at="2015-05-21T18:49:16Z" depends-on-methods="testNgPractice.atTest.runRandomOneAtTesth, testNgPractice.atTest.runRandomOneAtTesthuh" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valuables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[it is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runRandomOneAtTest -->
+        <test-method status="PASS" signature="runRandom1232(java.lang.String)[pri:0, instance:testNgPractice.atTest@5f150435]" name="runRandom1232" duration-ms="15" depends-on-groups="test" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valuables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[it is passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runRandom1232 -->
+      </class> <!-- testNgPractice.atTest -->
+      <class name="testNgPractice.beforeSuite">
+        <test-method status="PASS" signature="befSuite()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befSuite" is-config="true" duration-ms="21" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befSuite -->
+        <test-method status="PASS" signature="befTest()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befTest" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befTest -->
+        <test-method status="PASS" signature="befClass()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befClass" is-config="true" duration-ms="0" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befClass -->
+        <test-method status="PASS" signature="befGroups()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befGroups" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befGroups -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="runRandom(java.lang.String)[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="runRandom" duration-ms="29" started-at="2015-05-21T18:49:16Z" data-provider="testdata" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRandom -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="runRandom(java.lang.String)[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="runRandom" duration-ms="25" started-at="2015-05-21T18:49:16Z" data-provider="testdata" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRandom -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="runRandom(java.lang.String)[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="runRandom" duration-ms="30" started-at="2015-05-21T18:49:16Z" data-provider="testdata" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[data3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRandom -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftMethod" is-config="true" duration-ms="8" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftMethod" is-config="true" duration-ms="0" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="befMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="befMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- befMethod -->
+        <test-method status="PASS" signature="runRandom2(java.lang.String)[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="runRandom2" duration-ms="7" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[valuables]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRandom2 -->
+        <test-method status="PASS" signature="aftMethod()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftMethod" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftMethod -->
+        <test-method status="PASS" signature="aftClass()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftClass" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftClass -->
+        <test-method status="PASS" signature="aftGroups()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftGroups" is-config="true" duration-ms="1" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftGroups -->
+        <test-method status="PASS" signature="aftTest()[pri:0, instance:testNgPractice.beforeSuite@73035e27]" name="aftTest" is-config="true" duration-ms="5" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftTest -->
+      </class> <!-- testNgPractice.beforeSuite -->
+      <class name="testNgPractice.afterSuite">
+        <test-method status="PASS" signature="runRandom()[pri:0, instance:testNgPractice.afterSuite@25618e91]" name="runRandom" duration-ms="4" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runRandom -->
+        <test-method status="PASS" signature="aftSuite()[pri:0, instance:testNgPractice.afterSuite@25618e91]" name="aftSuite" is-config="true" duration-ms="0" started-at="2015-05-21T18:49:16Z" finished-at="2015-05-21T18:49:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftSuite -->
+      </class> <!-- testNgPractice.afterSuite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
